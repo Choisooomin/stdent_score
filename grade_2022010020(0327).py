@@ -64,5 +64,4 @@ def output_students(students): # 학생 정보 출력 함수
 
 students = input_students()  # 학생 정보 입력하기
 students_with_rank = calculate_rank(students)  # 등수 계산하기
-
 output_students(students_with_rank)  # 학생 정보 출력하기
